@@ -322,6 +322,21 @@ curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme
 ```
 
 ### Starship
+```bash
+curl -sS https://starship.rs/install.sh | sh
+```
+
+#### For ZSH:
+Add the following to the end of `~/.zshrc`:
+```bash
+eval "$(starship init zsh)"
+```
+
+#### For Bash:
+Add the following to the end of `~/.bashrc`:
+```bash
+eval "$(starship init bash)"
+```
 
 ### Fix the cursor issue in Telegram Desktop (Flatpak) on X11 running Linux (Fedora)
 
