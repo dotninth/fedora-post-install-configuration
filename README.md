@@ -125,6 +125,19 @@ sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore
 ## Touchpad gestures for X11
 
 ## Optimizations
+### Throttled (for Thinkpad T480 only)
+```bash
+sudo dnf install python3-cairo-devel cairo-gobject-devel gobject-introspection-devel dbus-glib-devel python3-devel make libX11-devel
+```
+
+```bash
+git clone https://github.com/erpalma/throttled.git
+```
+
+```bash
+sudo ./throttled/install.sh
+```
+
 ### Modern Standby
 ```bash
 sudo grubby --update-kernel=ALL --args="mem_sleep_default=s2idle"
