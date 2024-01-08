@@ -5,13 +5,9 @@ As well as for T460+.
 ```bash
 sudo nano /etc/dnf/dnf.conf
 ```
+
+Add to the end of file:
 ```
-[main] 
-gpgcheck=1 
-installonly_limit=3 
-clean_requirements_on_remove=True 
-best=False 
-skip_if_unavailable=True 
 fastestmirror=1 
 max_parallel_downloads=10 
 deltarpm=true
@@ -19,7 +15,7 @@ deltarpm=true
 
 ## RPM Fusion
 ```bash
-sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
 ```bash
 sudo dnf config-manager --enable fedora-cisco-openh264
