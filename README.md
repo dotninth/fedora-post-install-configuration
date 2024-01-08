@@ -68,15 +68,11 @@ sudo dnf swap 'ffmpeg-free' 'ffmpeg' --allowerasing
 ```
 
 ```bash
-sudo dnf swap 'ffmpeg-free' 'ffmpeg' --allowerasing
+sudo dnf install -y gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel ffmpeg gstreamer-ffmpeg
 ```
 
 ```bash
-sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel ffmpeg gstreamer-ffmpeg
-```
-
-```bash
-sudo dnf install lame\* --exclude=lame-devel
+sudo dnf install -y lame\* --exclude=lame-devel
 ```
 
 ```bash
@@ -85,11 +81,11 @@ sudo dnf group upgrade --with-optional Multimedia
 
 ## Hardware Acceleration
 ```bash
-sudo dnf install ffmpeg ffmpeg-libs libva libva-utils
+sudo dnf install -y ffmpeg ffmpeg-libs libva libva-utils
 ```
 
 ```bash
-sudo dnf install intel-media-driver
+sudo dnf install -y intel-media-driver
 ```
 
 ### OpenH264 for Firefox
