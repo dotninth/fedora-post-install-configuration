@@ -123,6 +123,15 @@ sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore
 ```
 
 ## Touchpad gestures for X11
+```bash
+sudo dnf install -y touchegg
+```
+
+```bash
+sudo systemctl enable --now touchegg
+```
+
+Install Gnome Shell Extension: https://extensions.gnome.org/extension/4033/x11-gestures/
 
 ## Optimizations
 ### Throttled (for Thinkpad T480 only)
