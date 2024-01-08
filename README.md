@@ -268,6 +268,9 @@ Where `N` is a kernel number:
 sudo grubby --set-default-index=N
 ```
 
+### Betterfox
+You can install [Betterfox from here](https://github.com/yokoffing/Betterfox#getting-started).
+
 ## Configuring GNOME Software
 ```bash
 gsettings set org.gnome.software download-updates false
@@ -276,9 +279,6 @@ gsettings set org.gnome.software download-updates false
 ```bash
 gsettings set org.gnome.software download-updates-notify false
 ```
-
-### Betterfox
-You can install [Betterfox from here](https://github.com/yokoffing/Betterfox#getting-started).
 
 ## Software installation
 ### From repositories
