@@ -38,10 +38,6 @@ sudo dnf -y upgrade --refresh
 
 ## Firmware
 ```bash
-sudo fwupdmgr get-devices 
-```
-
-```bash
 sudo fwupdmgr get-devices
 ```
 
