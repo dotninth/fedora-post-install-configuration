@@ -316,9 +316,6 @@ git clone https://github.com/GabePoel/KvLibadwaita.git
 ./KvLibadwaita/install.sh
 ```
 
-### Themes in Flatpaks
-
-
 ### Firefox Gnome Theme
 ```bash
 curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
