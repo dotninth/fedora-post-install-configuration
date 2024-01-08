@@ -288,14 +288,31 @@ gsettings set org.gnome.software download-updates-notify false
 ## Software installation
 
 ## Theming
+### gtk3-awd
+```bash
+sudo dnf install -y adw-gtk3-theme
+```
+
+```bash
+flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
+```
+
+Enable light:
+```bash
+gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3' && gsettings set org.gnome.desktop.interface color-scheme 'default'
+```
+
+Enable dark:
+```bash
+gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'```
+```
+
+### Themes in Flatpaks
+
 
 ### Firefox Gnome Theme
 
 ### Starship
-
-### gtk3-awd
-
-### Themes in Flatpaks
 
 ### Fix the cursor issue in Telegram Desktop (Flatpak) on X11 running Linux (Fedora)
 
