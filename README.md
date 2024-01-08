@@ -339,6 +339,24 @@ eval "$(starship init bash)"
 ```
 
 ### Fix the cursor issue in Telegram Desktop (Flatpak) on X11 running Linux (Fedora)
+```bash
+cd /usr/share/icons
+```
+
+```bash
+cp -r Adwaita ~/.icons/Adwaita
+```
+ 
+```bash
+flatpak install flathub com.github.tchx84.Flatseal
+```
+
+```bash
+echo "Xcursor.theme: Adwaita" > ~/.Xresources
+```
+
+1. Launch *Flatseal* and append rules to the *Telegram Desktop* app.
+2. Under *Filesystem*, enable **"All user files"** and append `~/.themes` and `~/.icons` in **Other files**.
 
 ## Use Alt-Shift for keyboard layout switching in GNOME 40+
 ```bash
