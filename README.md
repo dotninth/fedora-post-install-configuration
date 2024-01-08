@@ -307,10 +307,22 @@ Enable dark:
 gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'```
 ```
 
+### KvLibadwaita for Kvantum apps
+```bash
+git clone https://github.com/GabePoel/KvLibadwaita.git
+```
+
+```bash
+./KvLibadwaita/install.sh
+```
+
 ### Themes in Flatpaks
 
 
 ### Firefox Gnome Theme
+```bash
+curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
+```
 
 ### Starship
 
