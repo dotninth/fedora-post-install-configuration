@@ -277,6 +277,9 @@ gsettings set org.gnome.software download-updates false
 gsettings set org.gnome.software download-updates-notify false
 ```
 
+### Betterfox
+You can install [Betterfox from here](https://github.com/yokoffing/Betterfox#getting-started).
+
 ## Software installation
 ### From repositories
 ```bash
