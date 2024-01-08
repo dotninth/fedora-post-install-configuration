@@ -286,6 +286,11 @@ gsettings set org.gnome.software download-updates-notify false
 ```
 
 ## Software installation
+### From repositories
+
+### From Flathub
+
+## Gnome Shell Extensions
 
 ## Theming
 ### gtk3-awd
