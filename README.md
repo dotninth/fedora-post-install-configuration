@@ -289,8 +289,17 @@ gsettings set org.gnome.software download-updates-notify false
 ### From repositories
 
 ### From Flathub
+```bash
+flatpak install flathub com.mattjakeman.ExtensionManager flathub com.github.tchx84.Flatseal
+```
 
 ## Gnome Shell Extensions
+* [X11 Gestures](https://extensions.gnome.org/extension/4033/x11-gestures/)
+* [Quick Lang Switch](https://extensions.gnome.org/extension/4559/quick-lang-switch/)
+* [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
+* [Panel Corners](https://extensions.gnome.org/extension/4805/panel-corners/)
+* [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
+* [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 
 ## Theming
 ### gtk3-awd
