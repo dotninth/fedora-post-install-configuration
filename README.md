@@ -283,6 +283,9 @@ gsettings set org.gnome.software download-updates-notify false
 
 ## Software installation
 ### From repositories
+```bash
+sudo dnf install -y gnome-tweaks
+```
 
 ### From Flathub
 ```bash
