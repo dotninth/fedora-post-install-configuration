@@ -323,7 +323,11 @@ git clone https://github.com/GabePoel/KvLibadwaita.git
 ```
 
 ```bash
-./KvLibadwaita/install.sh
+cd KvLibadwaita
+```
+
+```bash
+./install.sh
 ```
 
 ### Firefox Gnome Theme
