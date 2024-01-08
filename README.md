@@ -169,11 +169,24 @@ sudo systemctl enable --now tuned
 tuned-adm list
 ```
 
+Chose what you need:
 ```bash
 sudo tuned-adm profile desktop
+```
+
+```bash
 sudo tuned-adm profile laptop-battery-powersave
+```
+
+```bash
 sudo tuned-adm profile realtime
+```
+
+```bash
 sudo tuned-adm profile latency-performance
+```
+
+```bash
 sudo tuned-adm profile throughput-performance
 ```
 
