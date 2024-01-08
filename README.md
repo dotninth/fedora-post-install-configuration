@@ -300,6 +300,7 @@ flatpak install flathub com.mattjakeman.ExtensionManager flathub com.github.tchx
 * [Panel Corners](https://extensions.gnome.org/extension/4805/panel-corners/)
 * [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
 * [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+* [Frequency Boost Switch](https://extensions.gnome.org/extension/4792/frequency-boost-switch/)
 
 ## Theming
 ### gtk3-awd
